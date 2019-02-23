@@ -2,9 +2,9 @@
 import os
 import time
 
-######### only change here #########
+######### change here #########
 timeInSeconds = 40
-####################################
+###############################
 
 exercises = ['joga para cima',
             'alonga o tronco para a direita',
