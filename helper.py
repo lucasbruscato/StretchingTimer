@@ -1,6 +1,7 @@
 
 import os
 import time
+import datetime
 
 ######### change here #########
 timeInSeconds = 40
@@ -30,3 +31,5 @@ time.sleep(5)
 for i in range(1, len(exercises)):
     time.sleep(timeInSeconds)
     os.system('say ' + exercises[i])
+
+os.system('say agora são ' + str(datetime.datetime.now().hour) + ' e ' + str(datetime.datetime.now().minute))
