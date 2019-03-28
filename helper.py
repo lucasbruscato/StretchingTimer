@@ -25,6 +25,7 @@ exercises = ['joga para cima',
             'alonga igual cachorro de férias',
             'bora aproveitar o dia']
 
+os.system('say bom dia, agora são ' + str(datetime.datetime.now().hour) + ' e ' + str(datetime.datetime.now().minute))
 os.system('say ' + exercises[0])
 time.sleep(5)
 
