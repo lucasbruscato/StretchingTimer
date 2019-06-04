@@ -28,6 +28,7 @@ time.sleep(3)
 
 for i in range(1, len(exercises)):
 
+    # print exercise and current time (in seconds)
     for j in range(1, time_in_seconds):
         print(exercises[i-1] + ' - ' + str(j))
         time.sleep(1)
