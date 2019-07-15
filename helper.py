@@ -4,23 +4,23 @@ import time
 import datetime
 
 ######### change here #########
-time_in_seconds = 34
+time_in_seconds = 35
 ###############################
 
-exercises = ['joga para cima',
-             'alonga o tronco para baixo',
-             'alonga o tronco para a direita',
-             'alonga o tronco para a esquerda',
-             'alonga o punho direito para baixo',
-             'alonga o punho esquerdo para baixo',
-             'alonga o punho direito para cima',
-             'alonga o punho esquerdo para cima',
-             'alonga a cabeça para a direita',
-             'alonga a cabeça para a esquerda',
-             'gira a cabeça lentamente',
-             'alonga a perna direita',
-             'alonga a perna esquerda',
-             'bora aproveitar o dia']
+exercises = [
+    'joga para cima',
+    'alonga o tronco para baixo',
+    'alonga o tronco para a direita',
+    'alonga o tronco para a esquerda',
+    'alonga o punho direito para baixo',
+    'alonga o punho esquerdo para baixo',
+    'alonga o punho direito para cima',
+    'alonga o punho esquerdo para cima',
+    'gira a cabeça lentamente',
+    'alonga a perna direita',
+    'alonga a perna esquerda',
+    'bora aproveitar o dia'
+]
 
 os.system('say bom dia, agora são ' + str(datetime.datetime.now().hour) + ' e ' + str(datetime.datetime.now().minute))
 os.system('say ' + exercises[0])
